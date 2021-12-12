@@ -7,8 +7,9 @@ import {
 
 import Layout from '../components/layout/Layout';
 import Home from '../screens/Home';
-import About from '../screens/About';
+import Experience from '../screens/Experience';
 import Contact from '../screens/Contact';
+import Tools from '../screens/Tools';
 import NoMatch from '../screens/NoMatch';
 
 const AppRoutes = props => {
@@ -17,8 +18,9 @@ const AppRoutes = props => {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path="about" element={<About />} />
+                    <Route path="experience" element={<Experience />} />
                     <Route path="contact" element={<Contact />} />
+                    <Route path="tools" element={<Tools />} />
                     <Route path="*" element={<NoMatch />} />
                 </Route>
             </Routes>

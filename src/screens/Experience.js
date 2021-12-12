@@ -2,12 +2,12 @@ import React from 'react';
 
 import Content from '../components/layout/Content';
 
-const Contact = props => {
+const Experience = props => {
     return (
         <Content>
-            Contact
+            Experience
         </Content>
     );
 };
 
-export default Contact;
+export default Experience;

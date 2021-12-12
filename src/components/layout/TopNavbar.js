@@ -22,8 +22,11 @@ const TopNavbar = props => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown>
-                        <LinkContainer to="/about">
-                            <Nav.Link>About</Nav.Link>
+                        <LinkContainer to="/tools">
+                            <Nav.Link>Tools</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/experience">
+                            <Nav.Link>Experience</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/contact">
                             <Nav.Link>Contact</Nav.Link>

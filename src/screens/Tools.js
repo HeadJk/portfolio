@@ -2,12 +2,12 @@ import React from 'react';
 
 import Content from '../components/layout/Content';
 
-const Contact = props => {
+const Tools = props => {
     return (
         <Content>
-            Contact
+            Tools
         </Content>
     );
 };
 
-export default Contact;
+export default Tools;
