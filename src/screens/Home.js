@@ -22,7 +22,7 @@ const Home = props => {
 
     return (
         <Content variant="light" className="justify-content-center">
-            <Row className="justify-content-center">
+            <Row className="bg-white p-5 justify-content-center shadow-sm">
                 <Col xs={{span: 12, order: 'last'}} lg={{span: 7, order: 'first'}} xl={8}>
                     <div className="h-100 d-flex flex-column justify-content-center">
                         <h1 className="text-center text-lg-start" >Jacob Head</h1>

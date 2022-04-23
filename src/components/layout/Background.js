@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 const Background = props => {
     //  PropList {
@@ -7,9 +6,9 @@ const Background = props => {
     //  }
 
     return (
-        <Container fluid className={"content-container px-0 " + props.className} style={{backgroundColor: props.color}}>
+        <div className={"content-container " + (props.variant ? `bg-${props.variant} ` : '')}>
             {props.children}
-        </Container>
+        </div>
     );
 };
 
