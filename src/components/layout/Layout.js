@@ -10,7 +10,6 @@ const Layout = props => {
     return (
         <div className='layout-container'>
             <TopNavbar />
-            <WavyBottom />
             <Outlet />
             <Footer />
         </div>
